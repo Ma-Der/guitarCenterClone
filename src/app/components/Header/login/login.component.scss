@@ -1,0 +1,68 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4px;
+
+  &Btn {
+    display: block;
+    margin-right: 2px;
+    color: #fff;
+    background-color: #2a2a2a;
+    font: 13px Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    width: 88px;
+    max-height: 36px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+      background-color: #444;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &Cart {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+
+      &Icon {
+        width: 23px;
+        height: 23px;
+      }
+    }
+
+    &Counter {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #790007;
+      width: 20px;
+      height: 20px;
+      border-radius: 25px;
+      font: 10px Tahoma, sans-serif;
+    }
+  }
+}
+
+input {
+  box-sizing: border-box;
+  width: 233px;
+  max-height: 36px;
+  margin-right: 2px;
+  padding-left: 5px;
+  line-height: 36px;
+  border: 1px solid #2a2a2a;
+}
+
+.buttonWrapper {
+  display: flex;
+}
