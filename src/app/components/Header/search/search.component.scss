@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2px;
+
+  &InputContainer {
+    max-height: 36px;
+    display: flex;
+    &Input {
+      line-height: 34px;
+      padding: 0 0 0 5px;
+      border-radius: 0;
+      box-sizing: border-box;
+      border: 1px solid #2a2a2a;
+      min-width: 280px;
+      font-size: 13px;
+    }
+
+    &Text {
+        color:#0e2e57;
+        margin: 8px 30px 0;
+        font: 13px Tahoma, sans-serif;
+    }
+
+    &Btn {
+      background-color: #0e2e57;
+      border: none;
+      min-width: 54px;
+      padding: 0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #790007;
+      }
+    }
+  }
+}
