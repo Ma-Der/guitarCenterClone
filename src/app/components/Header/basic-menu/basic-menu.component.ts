@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './basic-menu.component.html',
-  styleUrl: './basic-menu.component.css'
+  styleUrl: './basic-menu.component.scss'
 })
 export class BasicMenuComponent {
 
